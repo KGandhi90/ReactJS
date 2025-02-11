@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './App.css'
 
-export const App = () => {
+const Example1 = () => {
   const [count, setCount] = useState(0);
 
   const increaseCount = () => {
@@ -18,3 +17,5 @@ export const App = () => {
     </div>
   )
 }
+
+export default Example1;
