@@ -1,3 +1,5 @@
+// Managing Multiple State Variables
+
 import React, { useState } from 'react';
 
 const Example2 = () => {
