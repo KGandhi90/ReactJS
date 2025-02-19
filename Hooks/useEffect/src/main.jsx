@@ -4,6 +4,8 @@ import Example1 from './Example1'
 import Example2 from './Example2'
 import Example3 from './Example3'
 import Practice1 from './Practice1'
+import Practice2 from './Practice2'
+import Practice3 from './Practice3'
 
 createRoot(document.getElementById('root')).render(
   // Strict Mode runs the code twice on the very first render
@@ -12,6 +14,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Example1 /> */}
     {/* <Example2 /> */}
     {/* <Example3 /> */}
-    <Practice1 />
+    {/* <Practice1 /> */}
+    {/* <Practice2 /> */}
+    <Practice3 />
   </StrictMode>,
 )
